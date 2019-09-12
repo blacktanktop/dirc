@@ -1,0 +1,10 @@
+
+[ {"_comment": "partitionを区切る場合はDATEかTIMESTAMP"},
+  {"name": "AAAAA", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "BBBBB", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "CCCCC", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "DDDDD", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "EEEEE", "type": "INTEGER", "mode": "NULLABLE"},
+  {"name": "FFFFF", "type": "DATE", "mode": "NULLABLE"}
+]
+
