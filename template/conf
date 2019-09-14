@@ -1,0 +1,2 @@
+PATH_TO_PROJECT_DIR="local/project/project_name"
+log="$HOME/$PATH_TO_PROJECT_DIR"
