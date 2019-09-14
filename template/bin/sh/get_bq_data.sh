@@ -1,11 +1,11 @@
 #!/bin/bash -eux
-source $HOME/PATH_TO_PROJECT_DIR/bin/conf
+source $HOME/$PATH_TO_PROJECT_DIR/bin/conf
 exec > $log/$(basename $0).$(date +%Y%m%d_%H%M%S).$$ 2>&1
 
-list="$HOME/PATH_TO_PROJECT_DIR/common_data"
-bin="$HOME/PATH_TO_PROJECT_DIR/bin"
-result="$HOME/PATH_TO_PROJECT_DIR/bin/exec"
-template="$HOME/PATH_TO_PROJECT_DIR/bin/templates"
+list="$HOME/$PATH_TO_PROJECT_DIR/common_data"
+bin="$HOME/$PATH_TO_PROJECT_DIR/bin"
+result="$HOME/$PATH_TO_PROJECT_DIR/bin/exec"
+template="$HOME/$PATH_TO_PROJECT_DIR/bin/templates"
 
 # パラメータのリストの読み込み
 sample=()

@@ -1,8 +1,8 @@
 #!/bin/bash -eux
-source $HOME/PATH_TO_PROJECT_DIR/bin/conf
+source $HOME/$PATH_TO_PROJECT_DIR/bin/conf
 exec > $log/$(basename $0).$(date +%Y%m%d_%H%M%S).$$ 2>&1
 
-input="$HOME/PATH_TO_PROJECT_DIR/bin/exec"
+input="$HOME/$PATH_TO_PROJECT_DIR/bin/exec"
 
 # 並列処理
 # xargsはコマンド1回の実行でそこそこ大量に処理してくれちゃう

@@ -1,10 +1,10 @@
 #!/bin/bash -eux
-source $HOME/PATH_TO_PROJECT_DIR/bin/conf
+source $HOME/$PATH_TO_PROJECT_DIR/bin/conf
 exec > $log/$(basename $0).$(date +%Y%m%d_%H%M%S).$$ 2>&1
 
-bin="$HOME/PATH_TO_PROJECT_DIR/bin"
-input="$HOME/PATH_TO_PROJECT_DIR/results/evaluation_value"
-result="$HOME/PATH_TO_PROJECT_DIR/results"
+bin="$HOME/$PATH_TO_PROJECT_DIR/bin"
+input="$HOME/$PATH_TO_PROJECT_DIR/results/evaluation_value"
+result="$HOME/$PATH_TO_PROJECT_DIR/results"
 title="melty"
 
 # 出力dirの処理

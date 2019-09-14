@@ -1,9 +1,9 @@
 #!/bin/bash -eu
-source $HOME/PATH_TO_PROJECT_DIR/bin/conf
+source $HOME/$PATH_TO_PROJECT_DIR/bin/conf
 exec > $log/$(basename $0).$(date +%Y%m%d_%H%M%S).$$ 2>&1
 
-inputs="$HOME/PATH_TO_PROJECT_DIR/bin"
-results="$HOME/PATH_TO_PROJECT_DIR/common_data"
+inputs="$HOME/$PATH_TO_PROJECT_DIR/bin"
+results="$HOME/$PATH_TO_PROJECT_DIR/common_data"
 
 # 週毎
 start_date="20181230" # Sunday
